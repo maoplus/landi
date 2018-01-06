@@ -2,10 +2,17 @@ package org.ld.service;
 
 import java.util.Date;
 import java.util.List;
-
-import javax.print.attribute.standard.MediaSize.Other;
-
-import org.ld.model.*;
+import org.ld.model.CostLe;
+import org.ld.model.DrinkingWater;
+import org.ld.model.FlightPicking;
+import org.ld.model.Laundry;
+import org.ld.model.Maintain;
+import org.ld.model.OtherFare;
+import org.ld.model.Room;
+import org.ld.model.RoomItem;
+import org.ld.model.RoomPic;
+import org.ld.model.RoomState;
+import org.ld.model.ShuttleBus;
 
 public interface RoomService {
 

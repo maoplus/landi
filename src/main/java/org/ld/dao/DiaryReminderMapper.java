@@ -1,9 +1,8 @@
 package org.ld.dao;
 
-import org.ld.model.DiaryReminder;
-
 import java.util.List;
 import java.util.Map;
+import org.ld.model.DiaryReminder;
 
 public interface DiaryReminderMapper {
     int deleteByPrimaryKey(Integer ID);

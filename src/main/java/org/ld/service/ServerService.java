@@ -2,8 +2,13 @@ package org.ld.service;
 
 import java.util.Date;
 import java.util.List;
-
-import org.ld.model.*;
+import org.ld.model.AgentPurchase;
+import org.ld.model.CostLe;
+import org.ld.model.DailyService;
+import org.ld.model.Meal;
+import org.ld.model.ShoesPolishing;
+import org.ld.model.Sources;
+import org.ld.model.Staff;
 
 public interface ServerService {
 

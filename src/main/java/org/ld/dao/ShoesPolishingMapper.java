@@ -2,8 +2,6 @@ package org.ld.dao;
 
 import java.util.List;
 import java.util.Map;
-
-import org.ld.model.DailyService;
 import org.ld.model.ShoesPolishing;
 
 public interface ShoesPolishingMapper {

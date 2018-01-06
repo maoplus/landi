@@ -1,9 +1,7 @@
 package org.ld.dao;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 import org.ld.model.OtherFare;
 
 public interface OtherFareMapper {

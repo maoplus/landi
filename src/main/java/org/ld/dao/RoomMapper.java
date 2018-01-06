@@ -2,7 +2,6 @@ package org.ld.dao;
 
 import java.util.List;
 import java.util.Map;
-
 import org.ld.model.Room;
 
 public interface RoomMapper {

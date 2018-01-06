@@ -1,20 +1,14 @@
 package org.ld.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-
 import javax.servlet.http.HttpSession;
-
 import org.apache.log4j.Logger;
 import org.ld.app.Config;
-import org.ld.model.Room;
-import org.ld.model.RoomItem;
-import org.ld.model.RoomMeter;
-import org.ld.model.RoomPic;
-import org.ld.model.RoomState;
 import org.ld.model.User;
 import org.ld.service.RoomService;
 import org.ld.service.UserService;
@@ -25,8 +19,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import com.alibaba.fastjson.JSONObject;
 
 @Controller
 @RequestMapping("/HomeUser")
@@ -47,7 +39,12 @@ public class UserController {
 		Iterator<Entry<String, List<String>>> it = temp.entrySet().iterator();
 		while (it.hasNext()) {
 			Map.Entry<String, List<String>> entry = it.next();
-			ans.put(Integer.parseInt(entry.getKey()), entry.getValue().get(0));
+			try {
+				ans.put(Integer.parseInt(entry.getKey()), entry.getValue().get(0));
+			}catch (Exception e){
+        e.printStackTrace();
+			}
+
 		}
 		return ans;
 	}

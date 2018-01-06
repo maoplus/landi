@@ -1,9 +1,8 @@
 package org.ld.dao;
 
-import org.ld.model.MailReminder;
-
 import java.util.List;
 import java.util.Map;
+import org.ld.model.MailReminder;
 
 public interface MailReminderMapper {
     int deleteByPrimaryKey(Integer ID);

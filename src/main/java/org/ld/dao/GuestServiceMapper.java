@@ -1,7 +1,6 @@
 package org.ld.dao;
 
 import java.util.Map;
-
 import org.ld.model.GuestService;
 
 public interface GuestServiceMapper {

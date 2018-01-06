@@ -1,16 +1,13 @@
 package org.ld.service.impl;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.ld.dao.GuestBalanceMapper;
 import org.ld.dao.GuestMapper;
 import org.ld.dao.GuestServiceMapper;
 import org.ld.dao.HostMapper;
 import org.ld.dao.InternMapper;
-import org.ld.dao.RoomMapper;
 import org.ld.model.Guest;
 import org.ld.model.GuestBalance;
 import org.ld.model.GuestService;

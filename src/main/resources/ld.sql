@@ -1,21 +1,4 @@
-/*
- Navicat MySQL Data Transfer
-
- Source Server         : localhost
- Source Server Type    : MySQL
- Source Server Version : 50718
- Source Host           : localhost
- Source Database       : ld
-
- Target Server Type    : MySQL
- Target Server Version : 50718
- File Encoding         : utf-8
-
- Date: 10/17/2017 09:58:42 AM
-*/
-
-SET NAMES utf8;
-SET FOREIGN_KEY_CHECKS = 0;
+CREATE DATABASE IF NOT EXISTS zufang DEFAULT CHARACTER SET = utf8;
 
 -- ----------------------------
 --  Table structure for `agent_purchase`
@@ -1091,5 +1074,3 @@ CREATE TABLE `user` (
 BEGIN;
 INSERT INTO `user` VALUES ('1', 'BUPTADMIN', '202cb962ac59075b964b07152d234b70', 'BUPTADMIN', 'SYS_001', '财务部', '0', '1835008', '2016-10-08', '2017-10-09', '1', '1'), ('2', 'test', '202cb962ac59075b964b07152d234b70', 'test', 'TEST_001', '客服部', '4', '786431', '2016-10-08', '2017-10-13', '1', '1'), ('10', '王二', 'e10adc3949ba59abbe56e057f20f883e', '王二', '王二', '财务部', '4', '262143', '2017-03-17', '2017-06-16', '1', '1'), ('11', 'test8', 'e10adc3949ba59abbe56e057f20f883e', 'test', 'TEST_', '客房部', '4', '262143', '2017-03-28', '2017-09-18', '1', '0'), ('12', 'testr345', 'e10adc3949ba59abbe56e057f20f883e', 'test', 'TEST_', '客房部', '0', '1835008', '2017-03-29', '2017-03-29', '1', '0'), ('14', 'test12312', 'e10adc3949ba59abbe56e057f20f883e', 'test', 'TEST_', '客房部', '0', '1835008', '2017-04-24', '2017-06-15', '1', '1'), ('20', 'yaochenkun', 'e10adc3949ba59abbe56e057f20f883e', '姚陈堃', 'TEST_123123123', '客房部', '4', '262143', '2017-06-19', '2017-09-18', '1', '1'), ('21', 'ken19931108', 'e10adc3949ba59abbe56e057f20f883e', 'lkjdlfsldf', 'TEST_123123', '客房部', '3', '1048576', '2017-06-19', '2017-09-11', '1', '1'), ('22', 'ken', 'e10adc3949ba59abbe56e057f20f883e', 'test', 'TEST_', '客房部', '1', '262144', '2017-06-19', '2017-09-18', '1', '1'), ('23', 'ken1', 'e10adc3949ba59abbe56e057f20f883e', 'test', 'TEST_', '客房部', '2', '524288', '2017-06-19', '2017-06-19', '1', '1');
 COMMIT;
-
-SET FOREIGN_KEY_CHECKS = 1;

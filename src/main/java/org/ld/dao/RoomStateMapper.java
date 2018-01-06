@@ -1,8 +1,6 @@
 package org.ld.dao;
 
 import java.util.List;
-
-import org.ld.model.Room;
 import org.ld.model.RoomState;
 
 public interface RoomStateMapper {

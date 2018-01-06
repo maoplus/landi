@@ -2,9 +2,7 @@ package org.ld.dao;
 
 import java.util.List;
 import java.util.Map;
-
 import org.ld.model.AgentPurchase;
-import org.ld.model.ShoesPolishing;
 
 public interface AgentPurchaseMapper {
     int deleteByPrimaryKey(Integer ID);

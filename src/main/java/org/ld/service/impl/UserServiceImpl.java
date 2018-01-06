@@ -3,7 +3,6 @@ package org.ld.service.impl;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.ld.dao.UserMapper;
 import org.ld.model.User;

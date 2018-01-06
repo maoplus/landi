@@ -1,12 +1,8 @@
 package org.ld.dao;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 import org.ld.model.DrinkingWater;
-
-import com.sun.org.apache.xerces.internal.parsers.IntegratedParserConfiguration;
 
 public interface DrinkingWaterMapper {
     int deleteByPrimaryKey(Integer ID);

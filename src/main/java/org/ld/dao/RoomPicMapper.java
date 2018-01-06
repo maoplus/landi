@@ -1,7 +1,6 @@
 package org.ld.dao;
 
 import java.util.List;
-
 import org.ld.model.RoomPic;
 
 public interface RoomPicMapper {

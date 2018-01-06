@@ -1,8 +1,7 @@
 package org.ld.dao;
 
-import org.ld.model.Staff;
-
 import java.util.List;
+import org.ld.model.Staff;
 
 public interface StaffMapper {
     int deleteByPrimaryKey(Integer ID);

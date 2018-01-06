@@ -1,9 +1,7 @@
 package org.ld.dao;
 
-import java.sql.Date;
 import java.util.HashMap;
 import java.util.List;
-
 import org.ld.model.FlightPicking;
 
 public interface FlightPickingMapper {

@@ -3,10 +3,9 @@ package org.ld.interceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+import org.ld.model.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-import org.ld.model.User;
 
 /* 用户登录拦截器  */
 public class LoginIntercepter implements HandlerInterceptor {

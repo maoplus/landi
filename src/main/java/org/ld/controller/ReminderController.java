@@ -1,19 +1,23 @@
 package org.ld.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import javax.servlet.http.HttpSession;
 import org.apache.log4j.Logger;
 import org.ld.app.Config;
-import org.ld.model.*;
+import org.ld.model.DiaryReminder;
+import org.ld.model.MailReminder;
+import org.ld.model.User;
 import org.ld.service.ReminderService;
-import org.ld.utils.BeanPrinter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import javax.servlet.http.HttpSession;
-import java.util.*;
 
 /**
  * 事务提醒相关

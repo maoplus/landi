@@ -1,11 +1,10 @@
 package org.ld.service;
 
+import java.util.Date;
+import java.util.List;
 import org.ld.model.DiaryReminder;
 import org.ld.model.MailReminder;
 import org.ld.model.SystemReminder;
-
-import java.util.Date;
-import java.util.List;
 
 public interface ReminderService {
 

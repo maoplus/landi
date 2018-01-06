@@ -2,7 +2,6 @@ package org.ld.dao;
 
 import java.util.HashMap;
 import java.util.List;
-
 import org.ld.model.ShuttleBus;
 
 public interface ShuttleBusMapper {

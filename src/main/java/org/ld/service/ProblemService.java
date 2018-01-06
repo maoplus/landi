@@ -1,9 +1,8 @@
 package org.ld.service;
 
-import org.ld.model.Problem;
-
 import java.util.Date;
 import java.util.List;
+import org.ld.model.Problem;
 
 public interface ProblemService {
 
